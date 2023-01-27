@@ -13,11 +13,11 @@
                 <i class='fas fa-home'></i>
                 <span class="link-name">Home</span>
             </a></li>
-            <li><a href="#">
+            <li><a href="?page=dentist-list">
                 <i class='fas fa-user-cog' ></i>
                 <span class="link-name">Dentist Administration</span>
             </a></li>
-            <li><a href="#">
+            <li><a href="?page=patient-list">
                 <i class='fas fa-user'></i>
                 <span class="link-name">Patient Information</span>
             </a></li>
