@@ -1,5 +1,5 @@
 <?php 
-require '../admin/connection.php';
+require 'connection.php';
 $_SESSION = [];
 session_unset();
 session_destroy();

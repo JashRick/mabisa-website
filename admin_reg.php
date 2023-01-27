@@ -48,7 +48,7 @@
 <div class="container">
 		<div class="wrapper" id="wrapper1">
 		  <div class="title"><span>Admin Registration</span></div>
-		  <form action="api/connection.php" method="GET">
+		  <form action="api/utils/connection.php" method="GET">
 				<div class="row">
 					<i class="fas fa-user-tie"></i>
 					<input type="text" placeholder="Full Name" name="fullname" required>

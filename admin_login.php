@@ -51,7 +51,7 @@
 
     <div class="wrapper">
       <div class="title"><span>Admin Log In</span></div>
-      <form method="post" action="login.php">
+      <form method="post" action="api/utils/login.php">
          
         <div class="row">
 			
