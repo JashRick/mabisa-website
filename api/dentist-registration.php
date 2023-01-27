@@ -1,7 +1,5 @@
 <?php
 
-include("./utils/connection.php");
-
 $fname = $_GET['fullname'];
 $username = $_GET['username'];
 $email = $_GET['email'];

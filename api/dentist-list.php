@@ -1,13 +1,11 @@
 <?php
 
-include("./utils/connection.php");
+$sql = "SELECT * FROM `tbl_adminreg`";
 
-$sql = "SELECT * tbl_adminreg";
-
-$result = mysqli_query($con, $sql);
-   if($result->num_rows > 0) {
+$result = $con->query($sql);
+  if($result !== false && $result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
-        echo "admin_fullname: " . $row["admin_fullname"];
+        echo $row["admin_fullname"] . '<br>';
     }     
    } else {
     echo "0 results";
