@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>MABISA | Administration</title>
-	<link rel="icon" href="images/admin.png" type="image/x-icon">
+	<link rel="icon" href="../images/admin.png" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="../style.css">
 	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
@@ -19,7 +19,7 @@
 
     <div class="wrapper">
       <div class="title"><span>Admin Log In</span></div>
-      <form method="post" action="api/utils/login.php">
+      <form method="post" action="../api/utils/login.php">
          
         <div class="row">
 			

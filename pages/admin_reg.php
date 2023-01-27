@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>MABISA | Administration</title>
-	<link rel="icon" href="images/admin.png" type="image/x-icon">
+	<link rel="icon" href="../images/admin.png" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="../style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
@@ -17,7 +17,7 @@
 <div class="container">
 		<div class="wrapper" id="wrapper1">
 		  <div class="title"><span>Admin Registration</span></div>
-		  <form action="api/utils/connection.php" method="GET">
+		  <form action="../api/utils/connection.php" method="GET">
 				<div class="row">
 					<i class="fas fa-user-tie"></i>
 					<input type="text" placeholder="Full Name" name="fullname" required>
@@ -50,3 +50,15 @@
  </div>
 </body>
 </html>
+
+<?php
+
+if (isset($_GET["status"])) {
+	if ($_GET["status"] == 'success') {
+		echo '<script type="text/javascript">'; 
+		echo 'Swal.fire("Dentist", "Registration Succesfully!", "success"); '; 
+		echo '</script>';
+	}
+}
+
+?>
