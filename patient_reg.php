@@ -48,7 +48,7 @@
 <div class="container1">
 		<div class="wrapper1" id="wrapper1">
 		  <div class="title"><span>Patient Registration</span></div>
-          <form action="connection.php" method="GET">
+          <form action="api/connection.php" method="GET">
             <div class="main-user-info">
                <div class="user-input-box">
                 <label for="patient_id">Patient Id</label>
