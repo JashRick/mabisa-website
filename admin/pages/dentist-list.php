@@ -3,11 +3,27 @@
     <div class="title">
         <i class="uil uil-tachometer-fast-alt"></i>
         <span class="text">dentist list!!!</span>
-        <a href="?page=dentist-form">
-            <i class='fas fa-user'></i><span class="link-name">dentist form</span>
-        </a>
+    </div>
 
-        <?php include("../api/utils/connection.php");
-        include("../api/dentist-list.php");?>
-    </div>                
-</div>   
+    <div>
+    <table id="dentist-list" class="display" style="width:100%">
+            <thead>
+                <tr>
+                    <th>Dentist Name</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php include("../api/utils/connection.php");
+                    include("../api/dentist-list.php");?>
+            </tbody>
+        </table>
+
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('#dentist-list').DataTable();
+    });
+</script>
