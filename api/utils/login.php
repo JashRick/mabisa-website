@@ -25,7 +25,7 @@ if(!$con){
         if($stmt_result->num_rows > 0){
             $data = $stmt_result->fetch_assoc();
             if($data['admin_password'] === $apass){
-             header("Location: admin/admin.php");
+             header("Location: ../../admin/admin.php");
                 
             }else{
                

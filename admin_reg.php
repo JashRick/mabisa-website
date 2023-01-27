@@ -15,7 +15,7 @@
 	<label class="menu" for="menu-bar"> <i class="fas fa-bars"></i></label>
 	<nav class="navbar">
 		<ul>
-			<li><a href="index.html">Home</a></li>
+			<li><a href="index.php">Home</a></li>
 			<li><a href="#">Dentist Administration</a>
 					<ul>
 						<li><a href="admin_login.php">Admin Log In</a></li>

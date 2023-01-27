@@ -16,7 +16,7 @@
 	<label class="menu" for="menu-bar"> <i class="fas fa-bars"></i></label>
 	<nav class="navbar">
 		<ul>
-			<li><a href="index.html">Home</a></li>
+			<li><a href="index.php">Home</a></li>
 			<li><a href="#">Dentist Administration</a>
 					<ul>
 						<li><a href="#">Admin Log In</a></li>
@@ -26,7 +26,7 @@
 			<li><a href="#">Patient Information</a>
 					<ul>
 						<li><a href="patient_reg.php">Patient Registration</a></li>
-						<li><a href="patient_barcode_loss.html">Patient Barcode Loss</a></li>
+						<li><a href="patient_barcode_loss.php">Patient Barcode Loss</a></li>
 					
 					</ul>
 			</li>
@@ -62,7 +62,7 @@
           <i class="fas fa-lock"></i>
           <input type="password" placeholder="Password" name="admin_password" required>
         </div>
-        <div class="pass"><a href="admin_forgot_pass.html">Forgot password?</a></div>
+        <div class="pass"><a href="admin_forgot_pass.php">Forgot password?</a></div>
         <div class="row button">
           <input class="login" type="submit" value="Log In">
         </div>

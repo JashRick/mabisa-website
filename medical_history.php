@@ -15,7 +15,7 @@
 	<label class="menu" for="menu-bar"> <i class="fas fa-bars"></i></label>
 	<nav class="navbar">
 		<ul>
-			<li><a class="active" href="index.html">Home</a></li>
+			<li><a class="active" href="index.php">Home</a></li>
 			<li><a class="active"href="#">Dentist Administration</a>
 					<ul>
 						<li><a href="admin_login.php">Admin Log In</a></li>
@@ -25,7 +25,7 @@
 			<li><a href="#">Patient Information</a>
 					<ul>
 						<li><a href="patient_reg.php">Patient Registration</a></li>
-                        <li><a href="patient_barcode_loss.html">Patient Barcode Loss</a></li>
+                        <li><a href="patient_barcode_loss.php">Patient Barcode Loss</a></li>
 					</ul>
 			</li>
 			<li><a href="#">Medical History</a>
